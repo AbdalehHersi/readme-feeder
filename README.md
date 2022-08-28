@@ -25,7 +25,7 @@ Clone the repository code to a location of your choice using the command-line in
 
 To run the program all you need to do is enter `node index.js` Answer all the prompts and the README file will be generated. 
 
-![Screenshot](./Week%209%20Challenge/Develop/utils/Untitled.png)
+![](./utils/Untitled.png)
 
 For a more in depth guide you can view this walkthrough.
 
