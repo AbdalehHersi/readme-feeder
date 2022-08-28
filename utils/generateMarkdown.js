@@ -26,9 +26,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "MIT" || license === "Apache 2.0 License" || license === "GNU AGPL v3") {
-    return  `
-    ## License
-    `
+    return  "## License"
   } else return "";
 }
 
@@ -68,9 +66,9 @@ ${data.constributions}
 
 ${data.test}
 
-## ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
-${renderLicenseLink(data.license)}
+${renderLicenseLink(data.license)} is covered under ${data.license}.
 
 ## Questions
 
