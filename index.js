@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquire = require("inquirer");
-const markdown = require("./utils/generateMarkdown")
+const markdown = require("./utils/generateMarkdown")    //  import functions
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -18,9 +18,9 @@ const questions = [
 ];
 
 const [ projectTitleQ, filenameQ, descriptionQ, installationQ, usageQ, contributionsQ, testQ, githubQ, emailQ, licenseQ] = questions;
-
+    //  store questions into variables
 function questionsFunc(){
-inquire.prompt([
+inquire.prompt([    //  user prompts
     {
         type: "input",
         message: projectTitleQ,
